@@ -22,12 +22,4 @@ class Solution:  # copy of LeetCode task number(1050) name(height checkers)
                 count += 1
         
         return count
-    # all what is app copy add LeetCode link(https://leetcode.com/problems/height-checker/)
-
-
-
-
-
-
-     
-    
+    # all what is app copy add LeetCode link(https://leetcode.com/problems/height-checker/) 
