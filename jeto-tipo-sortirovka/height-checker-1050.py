@@ -25,10 +25,7 @@ class Solution:  # copy of LeetCode task number(1050) name(height checkers)
     # all what is app copy add LeetCode link(https://leetcode.com/problems/height-checker/)
 
 
-# example what is work in program
-heights = [180, 160, 188, 170, 167]
-result = heightChekers(heights)
-print("Количество учеников не на своих местах:", result)
+
 
 
 
