@@ -1,3 +1,3 @@
-class Solution:# copy of LeetCode task number(1460) name(erunda mne vlom pisat')
+class Solution:
      def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
-        # nuzno razobrat' 
+        # i have target and arr, i have task if they match then it's true, if not then it's false 
