@@ -1,0 +1,27 @@
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        # task: sort the numbers. The target is the addition of two numbers from the array
+
+        left = 0 
+        # left at the beginning
+
+        right = len(numbers) - 1
+        # right to end
+        
+        while left < right:
+            # the left and right side did not meet
+
+            current_sum = numbers[left] + numbers[right]
+
+            if current_sum == target:
+                # if left and right are equal target
+
+                return [ left + 1, right + 1 ]
+            # count from 1 (kak ia ponial to schot s 1)
+
+            elif current_sum < target:
+                left += 1
+            else:
+                right -= 1
+
+
